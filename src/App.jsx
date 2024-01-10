@@ -9,6 +9,7 @@ import Testimonials from './Components/Testimonials';
 import Clients from './Components/Clients';
 import CTA from './Components/CTA';
 import Footer from './Components/Footer';
+import Hero from './Components/Hero';
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          Hero
+          <Hero></Hero>
         </div>
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
