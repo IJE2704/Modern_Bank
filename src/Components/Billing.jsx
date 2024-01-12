@@ -13,7 +13,7 @@ const Billing = () => {
         />
         <div className="absolute z-[0] w-[100%] h-[100%] -left-[100%] rounded-full blue__gradient"/>
         {/* <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient"></div>
-        <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient"></div>*/}
+        */}
       </div> 
 
       <div className={layout.sectionInfo}>

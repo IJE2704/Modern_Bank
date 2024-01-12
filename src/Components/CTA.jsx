@@ -5,8 +5,9 @@ import styles from "../style";
 const CTA = () => {
   return (
     <section
-      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
+      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow relative`}
     >
+      <div className="absolute z-[2] -left-1/2  top-0 w-[50%] h-[50%] rounded-full pink__gradient"></div>
       <div className="flex-1 flex flex-col">
         <h2 className={`${styles.heading2}`}>Let’s try our service now!</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
