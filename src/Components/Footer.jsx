@@ -36,7 +36,7 @@ const Footer = () => {
             <p className='font-poppins  text-[18px] leading-[27px] text-white'>Copyright 2024 HooBank. All Rights Reserved.</p>
             <div className='flex flex-row md:mt-0 mt-4'>
               {socialMedia.map((social,index)=>(
-                <img className={`w-27px] h-[27px] object-contain ${index !== socialMedia.length - 1? 'mr-4':'mr-0'}`} src={social.icon} key={social.id} alt="" />
+                <img className={`w-27px] h-[27px] object-contain cursor-pointer ${index !== socialMedia.length - 1? 'mr-4':'mr-0'}`} src={social.icon} key={social.id} alt="" />
               ))}
             </div>
       </div>
